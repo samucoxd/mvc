@@ -125,7 +125,7 @@
         <div id="collapsePages2" class="collapse" aria-labelledby="headingPages2" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="subirArchivo.php">Subir Archivo</a>
+            <a class="collapse-item" href="<?php echo constant('URL');?>resumenPedido/subirExcel">Subir Archivo</a>
             <a class="collapse-item" href="<?php echo constant('URL');?>resumenPedido">Ver Pendientes</a>
             <a class="collapse-item" href="registroPiking.php">Registro Piking</a>
             <a class="collapse-item" href="registroDespacho.php">Registro Despacho</a>
